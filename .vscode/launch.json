@@ -7,7 +7,8 @@
         {
             "name": "gunter",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "flutterMode": "debug"
         },
         {
             "name": "gunter (profile mode)",
