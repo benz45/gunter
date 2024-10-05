@@ -10,3 +10,8 @@ Service for Updating Game Settings in Raycity RCRB
 
 Let me know if you need any more help!
 
+# Build
+
+add: SET_TARGET_PROPERTIES(${BINARY_NAME} PROPERTIES LINK_FLAGS    "/MANIFESTUAC:\"level='requireAdministrator' uiAccess='false'\" /SUBSYSTEM:WINDOWS")
+
+to CMakeLists.txt
