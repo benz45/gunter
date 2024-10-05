@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:dio/dio.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:gunter/model/access_token_model.dart';
-import 'package:gunter/model/base_request_model.dart';
+import 'package:rc_setting/model/access_token_model.dart';
+import 'package:rc_setting/model/base_request_model.dart';
 import 'package:http/http.dart' as http;
 
 class GoogleSheetService {

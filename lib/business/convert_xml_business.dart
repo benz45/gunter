@@ -1,6 +1,6 @@
-import 'package:gunter/constant/option_constant.dart';
-import 'package:gunter/model/screen_size_model.dart';
-import 'package:gunter/model/setting_model.dart';
+import 'package:rc_setting/constant/option_constant.dart';
+import 'package:rc_setting/model/screen_size_model.dart';
+import 'package:rc_setting/model/setting_model.dart';
 import 'package:xml/xml.dart';
 
 class ConvertXMLBusiness {

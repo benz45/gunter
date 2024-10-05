@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gunter/business/page_business.dart';
+import 'package:rc_setting/business/page_business.dart';
 
 class SettingSoundPage extends StatefulWidget {
   const SettingSoundPage({super.key});

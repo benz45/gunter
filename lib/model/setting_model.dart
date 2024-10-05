@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:gunter/model/screen_size_model.dart';
+import 'package:rc_setting/model/screen_size_model.dart';
 
 ConfigModel settingModelFromJson(String str) => ConfigModel.fromJson(json.decode(str));
 

@@ -1,7 +1,7 @@
-import 'package:gunter/model/base_option_model.dart';
-import 'package:gunter/model/screen_size_model.dart';
-import 'package:gunter/model/setting_default_model.dart';
-import 'package:gunter/model/setting_model.dart';
+import 'package:rc_setting/model/base_option_model.dart';
+import 'package:rc_setting/model/screen_size_model.dart';
+import 'package:rc_setting/model/setting_default_model.dart';
+import 'package:rc_setting/model/setting_model.dart';
 
 // คุณภาพ
 final List<BaseOpntionModel<int>> performanceList = [

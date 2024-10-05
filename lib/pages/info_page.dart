@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gunter/components/box_detail.dart';
+import 'package:rc_setting/components/box_detail.dart';
 
 class InfoPage extends StatefulWidget {
   const InfoPage({super.key});

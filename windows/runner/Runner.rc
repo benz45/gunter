@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "gunter" "\0"
+            VALUE "CompanyName", "com.developer" "\0"
+            VALUE "FileDescription", "rc-setting" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "gunter" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "gunter.exe" "\0"
-            VALUE "ProductName", "gunter" "\0"
+            VALUE "InternalName", "rc-setting" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 Developer. All rights reserved." "\0"
+            VALUE "OriginalFilename", "rc-setting.exe" "\0"
+            VALUE "ProductName", "RC Setting" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

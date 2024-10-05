@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gunter/config/option_config.dart';
-import 'package:gunter/provider/setting_provider.dart';
-import 'package:gunter/theme.dart';
+import 'package:rc_setting/config/option_config.dart';
+import 'package:rc_setting/provider/setting_provider.dart';
+import 'package:rc_setting/theme.dart';
 import 'package:provider/provider.dart';
 
 class ScreenModeRadio extends StatefulWidget {

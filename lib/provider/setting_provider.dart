@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
-import 'package:gunter/config/option_config.dart';
-import 'package:gunter/model/base_option_model.dart';
-import 'package:gunter/model/screen_size_model.dart';
-import 'package:gunter/model/setting_default_model.dart';
-import 'package:gunter/model/setting_model.dart';
+import 'package:rc_setting/config/option_config.dart';
+import 'package:rc_setting/model/base_option_model.dart';
+import 'package:rc_setting/model/screen_size_model.dart';
+import 'package:rc_setting/model/setting_default_model.dart';
+import 'package:rc_setting/model/setting_model.dart';
 
 class SettingProvider with ChangeNotifier, DiagnosticableTreeMixin {
   int _profileSelected = 1;

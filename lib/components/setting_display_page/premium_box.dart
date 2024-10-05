@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gunter/components/setting_display_page/premium_button.dart';
-import 'package:gunter/provider/menu_provider.dart';
+import 'package:rc_setting/components/setting_display_page/premium_button.dart';
+import 'package:rc_setting/provider/menu_provider.dart';
 import 'package:provider/provider.dart';
 
 class PremiumBox extends StatefulWidget {

@@ -1,13 +1,13 @@
 import 'package:bitsdojo_window/bitsdojo_window.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:gunter/components/left_side.dart';
-import 'package:gunter/components/right_side.dart';
-import 'package:gunter/labels.dart';
-import 'package:gunter/provider/activate_provider.dart';
-import 'package:gunter/provider/menu_provider.dart';
-import 'package:gunter/provider/setting_provider.dart';
-import 'package:gunter/theme.dart';
+import 'package:rc_setting/components/left_side.dart';
+import 'package:rc_setting/components/right_side.dart';
+import 'package:rc_setting/labels.dart';
+import 'package:rc_setting/provider/activate_provider.dart';
+import 'package:rc_setting/provider/menu_provider.dart';
+import 'package:rc_setting/provider/setting_provider.dart';
+import 'package:rc_setting/theme.dart';
 import 'package:provider/provider.dart';
 
 void main() async {

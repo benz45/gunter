@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:gunter/model/base_option_model.dart';
-import 'package:gunter/theme.dart';
+import 'package:rc_setting/model/base_option_model.dart';
+import 'package:rc_setting/theme.dart';
 
 class CustomRadio<T> extends StatefulWidget {
   final BaseOpntionModel<T> selectedValue;
