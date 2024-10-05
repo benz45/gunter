@@ -1,1 +1,1 @@
-const String primaryLabel = "REBIRTH RC";
+const String primaryLabel = 'REBIRTH RC';

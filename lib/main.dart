@@ -1,14 +1,30 @@
 import 'package:bitsdojo_window/bitsdojo_window.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:gunter/components/left_side.dart';
 import 'package:gunter/components/right_side.dart';
 import 'package:gunter/labels.dart';
+import 'package:gunter/provider/activate_provider.dart';
+import 'package:gunter/provider/menu_provider.dart';
+import 'package:gunter/provider/setting_provider.dart';
 import 'package:gunter/theme.dart';
+import 'package:provider/provider.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await dotenv.load(fileName: '.env');
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => MenuProvider()),
+        ChangeNotifierProvider(create: (_) => ActivateProvider()),
+        ChangeNotifierProvider(create: (_) => SettingProvider()),
+      ],
+      child: const Main(),
+    ),
+  );
   doWhenWindowReady(() {
-    const initialSize = Size(600, 450);
+    const initialSize = Size(800, 800);
     appWindow.minSize = initialSize;
     appWindow.maxSize = initialSize;
     appWindow.size = initialSize;
@@ -17,9 +33,15 @@ void main() {
   });
 }
 
+class Main extends StatefulWidget {
+  const Main({super.key});
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  @override
+  State<Main> createState() => _MainState();
+}
+
+class _MainState extends State<Main> {
+  
 
   @override
   Widget build(BuildContext context) {
@@ -30,64 +52,12 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       home: Scaffold(
         body: WindowBorder(
-          width: 1,
-          color: Colors.black,
+          width: 0,
+          color: const Color.fromARGB(255, 46, 43, 43),
           child: const Row(
             children: [LeftSide(), RightSide()],
           ),
         ),
-      ),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
-
-  final String title;
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many timesss:',
-            ),
-            Text(
-              '$_counter',
-            ),
-            Center(
-              child: ElevatedButton(
-                onPressed: () {
-                  // Action to perform when the button is pressed
-                  print('ElevatedButton Pressed');
-                },
-                child: Text('Press Me'),
-              ),
-            )
-          ],
-        ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
       ),
     );
   }

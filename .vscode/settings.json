@@ -2,5 +2,6 @@
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
         "memory": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "C:/Users/User/dev/gunter/windows"
 }

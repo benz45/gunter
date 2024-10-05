@@ -1,7 +1,6 @@
 import 'package:bitsdojo_window/bitsdojo_window.dart';
 import 'package:flutter/material.dart';
 import 'package:gunter/components/list_button.dart';
-import 'package:gunter/config/custom_color.dart';
 import 'package:gunter/images_path.dart';
 import 'package:gunter/labels.dart';
 
@@ -12,11 +11,11 @@ class LeftSide extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     return SizedBox(
       width: 200,
       child: Container(
-        // color: const Color.fromARGB(255, 24, 24, 24),
-        color: const Color.fromARGB(255, 24, 24, 24),
+        color: const Color.fromARGB(33, 226, 61, 61),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -37,7 +36,7 @@ class LeftSide extends StatelessWidget {
                 const SizedBox(
                   height: 20,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 200,
                   child: ListButton(),
                 )
@@ -48,21 +47,20 @@ class LeftSide extends StatelessWidget {
               child: Column(
                 children: [
                   Text(
-                    "Version: beta-1.0",
+                    'Version: beta-1.0',
                     style: TextStyle(
                       color: Color.fromARGB(255, 105, 105, 105),
                     ),
                   ),
                   Text(
-                    "Check Update",
+                    'Check Update',
                     style: TextStyle(
-                      color: customDarkAccentColor,
+                      color: Color.fromARGB(255, 240, 117, 117),
                     ),
                   ),
                 ],
               ),
             )
-            // const MyHomePage(title: 'Rebirth RC Options')
           ],
         ),
       ),
