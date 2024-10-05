@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gunter/model/screen_size_model.dart';
-import 'package:gunter/provider/setting_provider.dart';
+import 'package:rc_setting/model/screen_size_model.dart';
+import 'package:rc_setting/provider/setting_provider.dart';
 import 'package:provider/provider.dart';
 
 class ScreenSizeDropdown extends StatefulWidget {

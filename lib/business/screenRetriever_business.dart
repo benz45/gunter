@@ -1,4 +1,4 @@
-import 'package:gunter/model/screen_size_model.dart';
+import 'package:rc_setting/model/screen_size_model.dart';
 import 'package:screen_retriever/screen_retriever.dart';
 
 class ScreenRetrieverBusiness {

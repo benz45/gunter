@@ -1,11 +1,11 @@
 import 'package:bitsdojo_window/bitsdojo_window.dart';
 import 'package:flutter/material.dart';
-import 'package:gunter/components/window_buttons.dart';
-import 'package:gunter/pages/info_page.dart';
-import 'package:gunter/pages/setting_display_page.dart';
-import 'package:gunter/pages/setting_general_page.dart';
-import 'package:gunter/pages/setting_sound_page.dart';
-import 'package:gunter/provider/menu_provider.dart';
+import 'package:rc_setting/components/window_buttons.dart';
+import 'package:rc_setting/pages/info_page.dart';
+import 'package:rc_setting/pages/setting_display_page.dart';
+import 'package:rc_setting/pages/setting_general_page.dart';
+import 'package:rc_setting/pages/setting_sound_page.dart';
+import 'package:rc_setting/provider/menu_provider.dart';
 import 'package:provider/provider.dart';
 
 class RightSide extends StatefulWidget {

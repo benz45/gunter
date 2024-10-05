@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:gunter/model/access_token_model.dart';
+import 'package:rc_setting/model/access_token_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ActivateProvider with ChangeNotifier, DiagnosticableTreeMixin {

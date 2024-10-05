@@ -1,8 +1,8 @@
 import 'package:bitsdojo_window/bitsdojo_window.dart';
 import 'package:flutter/material.dart';
-import 'package:gunter/components/list_button.dart';
-import 'package:gunter/images_path.dart';
-import 'package:gunter/labels.dart';
+import 'package:rc_setting/components/list_button.dart';
+import 'package:rc_setting/images_path.dart';
+import 'package:rc_setting/labels.dart';
 
 class LeftSide extends StatelessWidget {
   const LeftSide({

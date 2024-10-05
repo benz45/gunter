@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gunter/images_path.dart';
-import 'package:gunter/theme.dart';
+import 'package:rc_setting/images_path.dart';
+import 'package:rc_setting/theme.dart';
 
 const _shimmerGradient = LinearGradient(
   colors: [

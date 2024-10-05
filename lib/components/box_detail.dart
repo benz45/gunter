@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gunter/theme.dart';
+import 'package:rc_setting/theme.dart';
 
 class BoxDetail extends StatelessWidget {
   final Widget child;

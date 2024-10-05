@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:gunter/business/encrypter_business.dart';
-import 'package:gunter/config/option_config.dart';
-import 'package:gunter/model/setting_model.dart';
+import 'package:rc_setting/business/encrypter_business.dart';
+import 'package:rc_setting/config/option_config.dart';
+import 'package:rc_setting/model/setting_model.dart';
 import 'package:path_provider/path_provider.dart';
 
 class DirectoryBusiness {

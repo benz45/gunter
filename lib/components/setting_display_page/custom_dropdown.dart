@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:gunter/model/base_option_model.dart';
+import 'package:rc_setting/model/base_option_model.dart';
 
 class CustomDropdown extends StatefulWidget {
   final BaseOpntionModel<int> selectedValue;
