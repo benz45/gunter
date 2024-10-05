@@ -1,4 +1,4 @@
-name: gunter
+name: rc_setting
 description: "Service for Updating Game Settings in Raycity RCRB."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -81,13 +81,7 @@ flutter:
     - assets/images/s1.png
     - assets/images/s2.png
     - assets/images/s3.png
-    - assets/images/s4.png
-    - assets/images/s5.gif
-    - assets/images/s6.png
-    - assets/images/s7.png
-    - assets/images/s8.png
-    - assets/images/s9.png
-    - assets/images/s10.png
+
     
     # - assets/rcrb-setting/temp/screen_resolution.conf
     # - assets/rcrb-setting/temp/rebirth_rc_location.conf
